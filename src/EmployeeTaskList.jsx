@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../AuthContext.jsx';
 import { Calendar, AlertCircle, Eye, Users } from 'lucide-react';
 import { EmployeeTaskDetailModal } from './EmployeeTaskDetailModal';
 
