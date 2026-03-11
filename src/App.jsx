@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { AuthProvider, useAuth } from './AuthContext';
-import { LoginForm } from "./LoginForm";
-import { SignUpForm } from "./SignUpForm";
-import Navbar from './Navbar';
-import EmployerDashboard from './EmployerDashboard';
-import EmployeeDashboard from './EmployeeDashboard';
+import { AuthProvider, useAuth } from './AuthContext.jsx';
+import { LoginForm } from "./LoginForm.jsx";
+import { SignUpForm } from "./SignUpForm.jsx";
+import Navbar from './Navbar.jsx';
+import EmployerDashboard from './EmployerDashboard.jsx';
+import EmployeeDashboard from './EmployeeDashboard.jsx';
 import { Loader2 } from 'lucide-react';
 
 const AuthScreen = () => {
