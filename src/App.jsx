@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AuthProvider, useAuth } from './AuthContext';
-import LoginForm from './LoginForm';
-import SignUpForm from './SignUpForm';
+import { LoginForm } from "./LoginForm";
+import { SignUpForm } from "./SignUpForm";
 import Navbar from './Navbar';
 import EmployerDashboard from './EmployerDashboard';
 import EmployeeDashboard from './EmployeeDashboard';
