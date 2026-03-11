@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../AuthContext.jsx';
 import { X } from 'lucide-react';
 
 export const CreateTaskModal = ({ onClose, onTaskCreated }) => {
