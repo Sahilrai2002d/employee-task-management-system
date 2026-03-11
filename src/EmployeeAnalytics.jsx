@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../AuthContext.jsx';
 import { TrendingUp, Calendar, Award, Clock } from 'lucide-react';
 
 export const EmployeeAnalytics = () => {
