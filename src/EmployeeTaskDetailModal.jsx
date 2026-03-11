@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../AuthContext.jsx';
 import { X, Check, XIcon, Plus, MessageSquare, Users } from 'lucide-react';
 import { TaskComments } from '../Shared/TaskComments';
 
