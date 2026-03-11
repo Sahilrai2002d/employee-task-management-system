@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
-import { useAuth } from '../../contexts/AuthContext';
+import { useAuth } from '../../AuthContext.jsx';
 import { Plus, Users, CheckCircle, Clock, AlertCircle, BarChart3 } from 'lucide-react';
 import { CreateTaskModal } from './CreateTaskModal';
 import { TaskList } from './TaskList';
